@@ -1,0 +1,66 @@
+/* How to define a variable in CSS */
+:root {
+  --primary-color: #050395;
+}
+html {
+  font-size: 20px;
+}
+span {
+  background-color: bisque;
+}
+.btnCommon {
+  background-color: transparent !important;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 20px;
+  margin: 10px;
+}
+.btn {
+  padding: 10px;
+}
+
+.pd-left {
+  background-color: yellow;
+  color: #150303;
+  padding-left: 30px;
+}
+.pd-right {
+  padding-right: 30px;
+}
+.pd-top {
+  padding-top: 30px;
+}
+.pd-bottom {
+  padding-bottom: 30px;
+}
+.ml {
+  margin-left: 40px;
+}
+.mr {
+  margin-right: 40px;
+}
+.mb {
+  margin-bottom: 40px;
+}
+.mt {
+  margin-top: 40px;
+}
+.em-unit {
+  margin: 2em;
+  font-size: 40px;
+}
+.rem-unit {
+  margin: 2rem;
+}
+
+.px-unit {
+  margin: 100px;
+}
+.vh-unit {
+  height: 100vh;
+  background-color: cadetblue;
+}
+.vw-unit {
+  width: 90vw;
+  background-color: lightcoral;
+}

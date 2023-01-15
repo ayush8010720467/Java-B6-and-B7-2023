@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basics</title>
+    <!-- Styling from a different file -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <style>
+      /* style tag */
+      div {
+        background-color: bisque;
+      }
+      /* Selectors */
+      /* 1. Selection on basis of tag */
+      /* div {
+        background-color: bisque;
+      } */
+      /* 2. Selector on the basis of class Name */
+      .test-class-selector {
+        font-size: 25px;
+        color: brown;
+      }
+      /* 3. Selection based on Id */
+      #test-id-selector {
+        font-weight: 900;
+      }
+    </style>
+    <!-- H1 tag has inline styling -->
+    <h1 style="color: thistle">CSS BASICS 101</h1>
+    <div>
+      <p class="test-class-selector" id="test-id-selector"
+        >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
+        quia totam vel consequuntur, blanditiis omnis necessitatibus et
+        consequatur nulla ex dolor alias temporibus, in ea minima voluptas.
+        Quae, odit similique.</p
+      >
+    </div>
+    <span
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+      itaque quidem ad delectus ratione, fuga suscipit voluptatibus quia,
+      aspernatur consequuntur porro tempora reiciendis mollitia consequatur,
+      neque temporibus excepturi veniam corrupti.</span
+    >
+    <hr />
+    <p class="test-class-selector"
+      >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam itaque
+      sint quibusdam delectus non consectetur magni molestiae culpa vero
+      perspiciatis deleniti quisquam necessitatibus facilis nihil dolores,
+      nesciunt totam suscipit ab?</p
+    >
+
+    <!-- CSS Box MODEL -->
+    <div style="background-color: transparent; border: 1px solid black">
+      <button class="btn btnCommon">Click Me</button>
+    </div>
+    <!-- Padding Example -->
+    <button class="pd-left btnCommon">Padding Left</button>
+    <button class="pd-right btnCommon">Padding Right</button>
+    <button class="pd-bottom btnCommon">Padding bottom</button>
+    <button class="pd-top btnCommon">Padding Top</button>
+    <div>This is the div elem</div>
+    <!-- Margin -->
+    <button class="ml btnCommon">margin Left</button>
+    <button class="mr btnCommon">margin Right</button>
+    <button class="mb btnCommon">margin bottom</button>
+    <button class="mt btnCommon">margin Top</button>
+    <div>This is the div elem</div>
+    <!-- Units of measurement in css -->
+    <!-- em -->
+    <!-- This is relative to the font size of the element -->
+    <div class="em-unit"> This is the text for EM unit </div>
+    <!-- rem -->
+    <!-- This is relative to the root element -->
+    <div class="rem-unit"> This is the text for REM unit </div>
+    <!-- px -->
+    <div class="px-unit"> This is the text for pixel unit </div>
+    <!-- vh -->
+    <!-- view port height -->
+    <div class="vh-unit">This is the text for vh-unit</div>
+    <!-- vw -->
+    <!-- view port width -->
+    <div class="vw-unit">This is the text for vw-unit</div>
+  </body>
+</html>
