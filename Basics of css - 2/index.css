@@ -1,0 +1,135 @@
+:root {
+  --br: brown;
+  --rd: red;
+  --gr: green;
+  --yl: yellow;
+  --or: orange;
+  --pu: purple;
+  --bl: blue;
+  --bla: black;
+  --vd-font: Verdana;
+  --roboto: "Roboto", sans-serif;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.bottom-right {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.bottom-left {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+.top-left {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+.top-right {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+.br {
+  background-color: var(--br);
+  /* opacity: 80%; */
+}
+.rd {
+  background-color: var(--rd);
+}
+.gr {
+  background-color: var(--gr);
+}
+.yl {
+  background-color: var(--yl);
+}
+.or {
+  background-color: var(--or);
+}
+.pu {
+  background-color: var(--pu);
+}
+.bl {
+  background-color: var(--bl);
+}
+.bla {
+  background-color: var(--bla);
+}
+
+p {
+  font-family: var(--vd-font);
+}
+.font-style-ex {
+  font-family: var(--roboto);
+}
+h1 {
+  z-index: 2;
+  position: fixed;
+}
+.relative {
+  position: relative;
+  top: 50px;
+}
+.circle-ab {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+.top-left-ab {
+  top: 20px;
+  left: 20px;
+}
+.top-right-ab {
+  top: 20px;
+  right: 20px;
+}
+.bottom-right-ab {
+  bottom: 20px;
+  right: 20px;
+}
+/* assignment css */
+.container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 300px;
+  position: relative;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.tl {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tr {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
