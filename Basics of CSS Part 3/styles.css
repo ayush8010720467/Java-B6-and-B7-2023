@@ -1,6 +1,8 @@
-/* body {
+body {
   background-color: bisque;
+  margin: 0;
 }
+/* 
 .card {
   min-height: 300px;
   width: 300px;
@@ -56,4 +58,16 @@
   flex-wrap: wrap;
   gap: 5em;
   justify-content: space-around;
+}
+.nav {
+  height: 75px;
+  background-color: cadetblue;
+  margin: 0 0 2em 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3em;
+  padding-right: 3em;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
